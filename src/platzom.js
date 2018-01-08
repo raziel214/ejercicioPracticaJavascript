@@ -1,12 +1,12 @@
 export default function platzom(str) {
   let translation = str;
-  
+
   // Si la palabra termina con "ar", se le quitan esas dos letras
   if (str.toLowerCase().endsWith("ar")) {
     translation = str.slice(0, -2)
   }
 
-  // Si la palabra inicia con Z, se le añade "pe" al final.
+  /////// Si la palabra inicia con Z, se le añade "pe" al final.
   if (str.toLowerCase().startsWith("z")) {
     translation += "pe"
   }
